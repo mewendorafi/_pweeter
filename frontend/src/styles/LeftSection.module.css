@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Mont";
+  src: url("/fonts/Mont-Heavy.otf");
+}
+
+.leftSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	width: 23vw;
+	padding: 25px 0px 25px 50px;
+}
+
+.userSection {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.name {
+	margin-right: 5px;
+	font-size: 15px;
+	font-family: 'Mont';
+	margin-bottom: 0;
+}
+
+.username {
+	font-size: 15px;
+	color: rgb(114, 131, 148);
+}
+
+.logout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	width: 75px;
+	background-color: transparent;
+	border: 1px rgb(114, 131, 148) solid;
+	border-radius: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.logout:hover {
+	background-color: #24374a;
+}
