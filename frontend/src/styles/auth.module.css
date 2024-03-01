@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Mont';
+	font-family: 'Mont-Heavy';
 	src: url('/fonts/Mont-Heavy.otf');
 }
 
@@ -23,7 +23,7 @@
 	width: 60vw;
 	padding: 30px;
 	background-color: #15202b;
-	font-family: 'Mont';
+	font-family: 'Mont-Heavy';
 }
 
 .signUp {

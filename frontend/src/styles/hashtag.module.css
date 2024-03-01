@@ -1,123 +1,123 @@
 @font-face {
-  font-family: "Mont";
-  src: url("/fonts/Mont-Heavy.otf");
+	font-family: 'Mont-Heavy';
+	src: url('/fonts/Mont-Heavy.otf');
 }
 
 .logo {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  background-color: #15202B;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	background-color: #15202b;
 }
 
 .leftSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-  width: 23vw;
-  padding: 25px 0px 25px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	width: 23vw;
+	padding: 25px 0px 25px 50px;
 }
 
 .middleSection {
-  height: 100vh;
-  width: 45vw;
-  border: rgba(114, 131, 148, 0.455) solid;
-  border-width: 0px 1px 0px 1px;
-  overflow: scroll;
+	height: 100vh;
+	width: 45vw;
+	border: rgba(114, 131, 148, 0.455) solid;
+	border-width: 0px 1px 0px 1px;
+	overflow: scroll;
 }
 
 .middleSection::-webkit-scrollbar {
-  background: transparent;
-  width: 0px;
+	background: transparent;
+	width: 0px;
 }
 
 .rightSection {
-  height: 100vh;
-  width: 32vw;
+	height: 100vh;
+	width: 32vw;
 }
 
 .userSection {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .avatar {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .userInfo {
-  display: flex;
-  flex-direction: column;
-  margin-top: 12px;
-  margin-left: 12px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 12px;
+	margin-left: 12px;
 }
 
 .name {
-  margin-right: 5px;
-  font-size: 15px;
-  font-family: "Mont";
-  margin-bottom: 0;
+	margin-right: 5px;
+	font-size: 15px;
+	font-family: 'Mont-Heavy';
+	margin-bottom: 0;
 }
 
 .username {
-  font-size: 15px;
-  color: rgb(114, 131, 148);
+	font-size: 15px;
+	color: rgb(114, 131, 148);
 }
 
 .logout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25px;
-  width: 75px;
-  background-color: transparent;
-  border: 1px rgb(114, 131, 148) solid;
-  border-radius: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 10px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	width: 75px;
+	background-color: transparent;
+	border: 1px rgb(114, 131, 148) solid;
+	border-radius: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 10px;
 }
 
 .logout:hover {
-  background-color: #24374a;
+	background-color: #24374a;
 }
 
 .title {
-  font-size: 22px;
-  font-weight: 700;
-  margin: 20px;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 20px;
 }
 
 .searchBar {
-  height: 40px;
-  width: 80%;
-  margin-bottom: 25px;
-  border-radius: 30px;
-  border: none;
-  background-color: #1E2732;
-  padding: 10px;
-  font-size: 15px;
-  font-weight: 500;
-  color: lightgray;
+	height: 40px;
+	width: 80%;
+	margin-bottom: 25px;
+	border-radius: 30px;
+	border: none;
+	background-color: #1e2732;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	color: lightgray;
 }
 
 .searchBar:focus {
-  outline: none;
+	outline: none;
 }
 
 .searchSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .noPweet {
-  text-align: center;
+	text-align: center;
 }

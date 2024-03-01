@@ -1,26 +1,39 @@
+@font-face {
+	font-family: 'Mont-ExtraLight';
+	src: url('/fonts/Mont-ExtraLight.otf');
+}
+
 .container {
-  max-height: 85vh;
-  margin: 20px;
-  background-color: #1E2732;
-  border-radius: 10px;
-  overflow: scroll;
+	max-height: 85vh;
+	margin: 20px;
+	background-color: #1e2732;
+	border-radius: 10px;
+	overflow: scroll;
 }
 
 .pweetContainer {
-  padding: 20px 0px 10px 20px;
-  cursor: pointer;
+	padding: 20px 0px 10px 20px;
+	cursor: pointer;
 }
 
 .pweetContainer:hover {
-  background-color: #273443;
+	background-color: #273443;
 }
 
 .hashtag {
-  font-size: 15px;
-  font-weight: 800;
+	font-size: 15px;
+	font-weight: 800;
 }
 
 .nbrPweet {
-  color: rgb(114, 131, 148);
-  font-size: 12px;
+	color: rgb(114, 131, 148);
+	font-size: 12px;
+	font-family: 'Mont-ExtraLight';
+}
+
+.noTrends {
+	font-family: Geneva, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 12px;
 }

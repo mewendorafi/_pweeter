@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Mont';
+	font-family: 'Mont-Heavy';
 	src: url('/fonts/Mont-Heavy.otf');
 }
 
@@ -60,7 +60,7 @@
 .name {
 	margin-right: 5px;
 	font-size: 15px;
-	font-family: 'Mont';
+	font-family: 'Mont-Heavy';
 	margin-bottom: 0;
 }
 
@@ -78,7 +78,7 @@
 	background-color: transparent;
 	border: 1px rgb(114, 131, 148) solid;
 	border-radius: 40px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	font-size: 10px;
 	font-weight: 600;
 	cursor: pointer;
@@ -101,23 +101,27 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 2px;
 }
 
 .validatePweet {
 	width: 80%;
-	height: 80px;
+	height: 60px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
 .input {
-	width: 80%;
-	height: 50px;
+	width: 85%;
+	height: 34px;
+	min-height: 34px;
+	max-height: 84vh;
 	background-color: transparent;
 	border-width: 0px 0px 1px 0px;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
+	font-family: Geneva, sans-serif;
 }
 
 .input:focus {
@@ -130,16 +134,21 @@
 	align-items: center;
 	height: 30px;
 	width: 90px;
-	margin-left: 15px;
-	margin-bottom: 15px;
-	background-color: #409bf1;
 	border: none;
 	border-radius: 40px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-weight: 600;
 	cursor: pointer;
+	background-color: #409bf1;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 .button:hover {
 	background-color: #3384cf;
+}
+
+.charCount {
+	margin: 0;
+	margin-right: 12px;
+	font-family: Geneva, sans-serif;
+	font-size: 12px;
 }

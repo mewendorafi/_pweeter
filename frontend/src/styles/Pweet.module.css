@@ -1,53 +1,54 @@
 @font-face {
-  font-family: "Mont";
-  src: url("/fonts/Mont-Heavy.otf");
+	font-family: 'Mont-Heavy';
+	src: url('/fonts/Mont-Heavy.otf');
 }
 
 .container {
-  border: rgba(114, 131, 148, 0.455) solid;
-  border-width: 1px 0px 0px 0px;
-  padding: 20px;
+	border: rgba(114, 131, 148, 0.455) solid;
+	border-width: 1px 0px 0px 0px;
+	padding: 20px;
 }
 
 .userInfo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
 }
 
 .avatar {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 
 .content {
-  margin: 0;
-  margin-left: 12px;
+	margin: 0;
+	margin-left: 12px;
+	font-family: Geneva, sans-serif;
 }
 
 .like,
 .delete {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .like {
-  margin-right: 5px;
-  color: white;
+	margin-right: 5px;
+	color: white;
 }
 
 .delete {
-  margin-left: 10px;
-  color: white;
+	margin-left: 10px;
+	color: white;
 }
 
 .name {
-  font-family: "Mont";
+	font-family: 'Mont-Heavy';
 }
 
 .name,
 .greyText {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 .greyText {
-  color: rgb(114, 131, 148);
+	color: rgb(114, 131, 148);
 }

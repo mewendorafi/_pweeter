@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Mont";
-  src: url("/fonts/Mont-Heavy.otf");
+	font-family: 'Mont-Heavy';
+	src: url('/fonts/Mont-Heavy.otf');
+}
+
+@font-face {
+	font-family: 'Mont-ExtraLight';
+	src: url('/fonts/Mont-ExtraLight.otf');
 }
 
 .leftSection {
@@ -35,13 +40,14 @@
 .name {
 	margin-right: 5px;
 	font-size: 15px;
-	font-family: 'Mont';
+	font-family: 'Mont-Heavy';
 	margin-bottom: 0;
 }
 
 .username {
 	font-size: 15px;
 	color: rgb(114, 131, 148);
+	font-family: 'Mont-ExtraLight';
 }
 
 .logout {
