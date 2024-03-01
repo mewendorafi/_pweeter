@@ -37,23 +37,25 @@ function Index() {
 			: null;
 
 	const submitPweet = () => {
-		const options = {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-				Authorization: `Bearer ${token}`,
-			},
-			body: JSON.stringify({ content: newPweet }),
-		};
-		fetch('http://localhost:3000/pweet', options)
-			.then(response => response.json())
-			.then(pweet => {
-				if (pweet) {
-					const createdPweet = { ...pweet, author: user };
-					dispatch(addPweet(createdPweet));
-					setNewPweet('');
-				}
-			});
+		if (newPweet.length >= 2 && newPweet.length <= 280) {
+			const options = {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					Authorization: `Bearer ${token}`,
+				},
+				body: JSON.stringify({ content: newPweet }),
+			};
+			fetch('http://localhost:3000/pweet', options)
+				.then(response => response.json())
+				.then(pweet => {
+					if (pweet) {
+						const createdPweet = { ...pweet, author: user };
+						dispatch(addPweet(createdPweet));
+						setNewPweet('');
+					}
+				});
+		}
 	};
 
 	return (
@@ -75,7 +77,7 @@ function Index() {
 							value={newPweet}
 						/>
 						<div className={styles.validatePweet}>
-							<p>{newPweet.length}/280</p>
+							<p className={styles.charCount}>{newPweet.length}/280</p>
 							<CustomButton
 								title='Pweet'
 								style={styles.button}
