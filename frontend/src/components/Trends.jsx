@@ -36,7 +36,7 @@ export default function Trends() {
 					</Link>
 				))
 			) : (
-				<p style={{ textAlign: 'center', margin: 0, padding: 8 }}>
+				<p className={styles.noTrends}>
 					No trends yet... make your own !
 				</p>
 			)}

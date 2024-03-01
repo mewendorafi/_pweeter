@@ -47,7 +47,7 @@ export default function Pweet(props) {
 
 	let likeStyle = {};
 	if (props.likes.some(element => element.username === user.username))
-		likeStyle = { color: '#f91980' };
+		likeStyle = { color: '#f91980', fontFamily: 'Mont' };
 
 	return (
 		<div className={styles.container}>

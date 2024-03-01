@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import CustomButton from './CustomButton';
 import { login } from '../redux/slices/user.slice';
-import styles from '../styles/LoginForm.module.css';
+import styles from '../styles/AuthForm.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import validateAuthForm from '../utils/validateAuthForm';
 import httpErrorHandler from '../utils/httpErrorHandler';
